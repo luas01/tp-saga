@@ -2,8 +2,8 @@ from flask import Flask, jsonify
 import random, time
 app = Flask(__name__)
 
-@app.route('/get_producto', methods=['GET'])
-def get_producto():
+@app.route('/obtener_producto', methods=['GET'])
+def obtener_producto():
     time.sleep(random.uniform(0.2, 1.0)) #simula latencia
     producto = {
         "id": random.randint(1000, 9999),
