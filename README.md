@@ -1,3 +1,4 @@
+Microservicio realizado por los alumnos: -Andino Nicolás , Legajo N°9935 -Assenza Ezequiel , Legajo N° 9943 -Lopez Matias , Legajo N° 10097 -Orella Lucas , Legajo N° 10163
 # TP-SAGA — Implementación del Patrón Saga con Microservicios
 Este proyecto implementa el patrón **Saga** utilizando una arquitectura basada en microservicios. El objetivo es coordinar una serie de operaciones distribuidas (catálogo, pagos, compras, inventario) de forma confiable, aplicando compensaciones en caso de fallos.
 
